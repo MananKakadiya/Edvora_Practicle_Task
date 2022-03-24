@@ -8,13 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
+    let login = HomeVC()
+    @State private var isActive = false
+    
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack(spacing:0){
+                Spacer()
+                logo()
+                    .onAppear(perform: {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + Double(0.5)) {
+                            self.isActive = true
+                        }
+                    })
+                
+                NavigationLink(destination: login.navigationBarHidden(isActive),
+                               isActive: $isActive,
+                               label: { EmptyView() }).buttonStyle(PlainButtonStyle())
+                Spacer()
+                
+            }.frame(maxWidth: .infinity, maxHeight: .infinity)
+                .edgesIgnoringSafeArea(.all)
+            
+        }
+        
     }
 }
-
-
 
 
 

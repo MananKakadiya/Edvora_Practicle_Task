@@ -11,6 +11,19 @@
 		E0AF5DA327EC5E7900A4DFFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF5DA227EC5E7900A4DFFF /* ContentView.swift */; };
 		E0AF5DA527EC5E7900A4DFFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0AF5DA427EC5E7900A4DFFF /* Assets.xcassets */; };
 		E0AF5DA827EC5E7900A4DFFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0AF5DA727EC5E7900A4DFFF /* Preview Assets.xcassets */; };
+		E0AF5DB327EC7EFF00A4DFFF /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF5DB227EC7EFF00A4DFFF /* HomeVC.swift */; };
+		E0AF5DD027EC7F6900A4DFFF /* CommonUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF5DC727EC7F6900A4DFFF /* CommonUI.swift */; };
+		E0AF5DD127EC7F6900A4DFFF /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF5DC827EC7F6900A4DFFF /* Utilities.swift */; };
+		E0AF5DD227EC7F6900A4DFFF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF5DC927EC7F6900A4DFFF /* Extensions.swift */; };
+		E0AF5DD427EC7F6900A4DFFF /* CommonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF5DCB27EC7F6900A4DFFF /* CommonAPI.swift */; };
+		E0AF5DEF27EC80D800A4DFFF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF5DEE27EC80D800A4DFFF /* Constants.swift */; };
+		E0AF5DF127ECA0D100A4DFFF /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF5DF027ECA0D100A4DFFF /* ServiceManager.swift */; };
+		E0AF5DF327ECA10200A4DFFF /* ServiceMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF5DF227ECA10200A4DFFF /* ServiceMapping.swift */; };
+		E0AF5DF527ECA12D00A4DFFF /* BaseServiceResponse .swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF5DF427ECA12D00A4DFFF /* BaseServiceResponse .swift */; };
+		E0AF5DF727ECA15800A4DFFF /* ServiceMapping.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0AF5DF627ECA15800A4DFFF /* ServiceMapping.plist */; };
+		E0AF5DFA27ECA27300A4DFFF /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF5DF927ECA27300A4DFFF /* UserModel.swift */; };
+		E0AF5DFC27ECA40B00A4DFFF /* API Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF5DFB27ECA40B00A4DFFF /* API Constant.swift */; };
+		E0AF5DFF27ED292600A4DFFF /* RideModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF5DFE27ED292600A4DFFF /* RideModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +32,20 @@
 		E0AF5DA227EC5E7900A4DFFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E0AF5DA427EC5E7900A4DFFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0AF5DA727EC5E7900A4DFFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0AF5DB227EC7EFF00A4DFFF /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		E0AF5DC727EC7F6900A4DFFF /* CommonUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUI.swift; sourceTree = "<group>"; };
+		E0AF5DC827EC7F6900A4DFFF /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E0AF5DC927EC7F6900A4DFFF /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E0AF5DCB27EC7F6900A4DFFF /* CommonAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonAPI.swift; sourceTree = "<group>"; };
+		E0AF5DEE27EC80D800A4DFFF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E0AF5DF027ECA0D100A4DFFF /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		E0AF5DF227ECA10200A4DFFF /* ServiceMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceMapping.swift; sourceTree = "<group>"; };
+		E0AF5DF427ECA12D00A4DFFF /* BaseServiceResponse .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseServiceResponse .swift"; sourceTree = "<group>"; };
+		E0AF5DF627ECA15800A4DFFF /* ServiceMapping.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ServiceMapping.plist; sourceTree = "<group>"; };
+		E0AF5DF927ECA27300A4DFFF /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		E0AF5DFB27ECA40B00A4DFFF /* API Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API Constant.swift"; sourceTree = "<group>"; };
+		E0AF5DFD27ED223C00A4DFFF /* Edvora-Practicle-Task-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Edvora-Practicle-Task-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E0AF5DFE27ED292600A4DFFF /* RideModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +78,15 @@
 		E0AF5D9F27EC5E7900A4DFFF /* Edvora_Practicle_Task */ = {
 			isa = PBXGroup;
 			children = (
+				E0AF5DFD27ED223C00A4DFFF /* Edvora-Practicle-Task-Info.plist */,
 				E0AF5DA027EC5E7900A4DFFF /* Edvora_Practicle_TaskApp.swift */,
 				E0AF5DA227EC5E7900A4DFFF /* ContentView.swift */,
-				E0AF5DA427EC5E7900A4DFFF /* Assets.xcassets */,
+				E0AF5DAF27EC7E9C00A4DFFF /* Model */,
+				E0AF5DAE27EC7E0100A4DFFF /* Controller */,
+				E0AF5DED27EC80D800A4DFFF /* Constatnts */,
+				E0AF5DC627EC7F6900A4DFFF /* Common Classes */,
+				E0AF5DD827EC7FCD00A4DFFF /* Service Manager */,
+				E0AF5DEC27EC7FDA00A4DFFF /* Assets */,
 				E0AF5DA627EC5E7900A4DFFF /* Preview Content */,
 			);
 			path = Edvora_Practicle_Task;
@@ -65,6 +98,71 @@
 				E0AF5DA727EC5E7900A4DFFF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E0AF5DAE27EC7E0100A4DFFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0AF5DB227EC7EFF00A4DFFF /* HomeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0AF5DAF27EC7E9C00A4DFFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0AF5DF927ECA27300A4DFFF /* UserModel.swift */,
+				E0AF5DFE27ED292600A4DFFF /* RideModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0AF5DC627EC7F6900A4DFFF /* Common Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E0AF5DC727EC7F6900A4DFFF /* CommonUI.swift */,
+				E0AF5DC827EC7F6900A4DFFF /* Utilities.swift */,
+				E0AF5DC927EC7F6900A4DFFF /* Extensions.swift */,
+				E0AF5DCB27EC7F6900A4DFFF /* CommonAPI.swift */,
+			);
+			path = "Common Classes";
+			sourceTree = "<group>";
+		};
+		E0AF5DD827EC7FCD00A4DFFF /* Service Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E0AF5DD927EC7FCD00A4DFFF /* ServiceClass */,
+			);
+			name = "Service Manager";
+			path = "Common Classes/Service Manager";
+			sourceTree = "<group>";
+		};
+		E0AF5DD927EC7FCD00A4DFFF /* ServiceClass */ = {
+			isa = PBXGroup;
+			children = (
+				E0AF5DF627ECA15800A4DFFF /* ServiceMapping.plist */,
+				E0AF5DF427ECA12D00A4DFFF /* BaseServiceResponse .swift */,
+				E0AF5DF027ECA0D100A4DFFF /* ServiceManager.swift */,
+				E0AF5DF227ECA10200A4DFFF /* ServiceMapping.swift */,
+			);
+			path = ServiceClass;
+			sourceTree = "<group>";
+		};
+		E0AF5DEC27EC7FDA00A4DFFF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E0AF5DA427EC5E7900A4DFFF /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E0AF5DED27EC80D800A4DFFF /* Constatnts */ = {
+			isa = PBXGroup;
+			children = (
+				E0AF5DEE27EC80D800A4DFFF /* Constants.swift */,
+				E0AF5DFB27ECA40B00A4DFFF /* API Constant.swift */,
+			);
+			path = Constatnts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +225,7 @@
 			files = (
 				E0AF5DA827EC5E7900A4DFFF /* Preview Assets.xcassets in Resources */,
 				E0AF5DA527EC5E7900A4DFFF /* Assets.xcassets in Resources */,
+				E0AF5DF727ECA15800A4DFFF /* ServiceMapping.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +236,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0AF5DF527ECA12D00A4DFFF /* BaseServiceResponse .swift in Sources */,
 				E0AF5DA327EC5E7900A4DFFF /* ContentView.swift in Sources */,
+				E0AF5DEF27EC80D800A4DFFF /* Constants.swift in Sources */,
+				E0AF5DD127EC7F6900A4DFFF /* Utilities.swift in Sources */,
 				E0AF5DA127EC5E7900A4DFFF /* Edvora_Practicle_TaskApp.swift in Sources */,
+				E0AF5DD027EC7F6900A4DFFF /* CommonUI.swift in Sources */,
+				E0AF5DF127ECA0D100A4DFFF /* ServiceManager.swift in Sources */,
+				E0AF5DFF27ED292600A4DFFF /* RideModel.swift in Sources */,
+				E0AF5DF327ECA10200A4DFFF /* ServiceMapping.swift in Sources */,
+				E0AF5DD427EC7F6900A4DFFF /* CommonAPI.swift in Sources */,
+				E0AF5DB327EC7EFF00A4DFFF /* HomeVC.swift in Sources */,
+				E0AF5DFA27ECA27300A4DFFF /* UserModel.swift in Sources */,
+				E0AF5DFC27ECA40B00A4DFFF /* API Constant.swift in Sources */,
+				E0AF5DD227EC7F6900A4DFFF /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +383,7 @@
 				DEVELOPMENT_TEAM = W8GUQJV2LM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Edvora-Practicle-Task-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +413,7 @@
 				DEVELOPMENT_TEAM = W8GUQJV2LM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Edvora-Practicle-Task-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
