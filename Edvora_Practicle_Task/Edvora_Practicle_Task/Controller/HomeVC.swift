@@ -11,8 +11,33 @@ struct HomeVC: View {
     var body: some View {
         VStack{
             NavigationBar()
-            Rides()
-            Spacer()
+            ZStack(alignment: .top){
+                VStack{
+                    Rides()
+                    Spacer()
+                }
+                HStack(spacing: 0){
+                    Spacer()
+                    Button {
+                        print("gfdsdsvfbdg")
+                    } label: {
+                        Image("filter")
+                            .resizable()
+                            .frame(width: Utilities.setSize(size: 15), height: Utilities.setSize(size: 15))
+                        Text("Filter")
+                            .foregroundColor(.black)
+                            .fontWeight(Font.Weight.medium)
+                            .frame(width: Utilities.setSize(size: 70), height: Utilities.setSize(size: 25))
+                            .padding(.top, Utilities.setSize(size: -3))
+                            .padding(.leading, Utilities.setSize(size: -10))
+                            .onTapGesture {
+                                print("Filter")
+                            }
+                    }
+
+                        
+                }.padding(.top, Utilities.setSize(size: 5))
+            }
         }
     }
     
@@ -22,7 +47,7 @@ struct HomeVC: View {
             return HStack(spacing: 0){
                 Text("Edvora").fontWeight(Font.Weight.heavy).font(Font.system(size: Utilities.setFontSize(size: 30)))
                 Spacer()
-                Image("edvora")
+                Image("userPlaceholer")
                     .resizable()
                     .frame(width: 40, height: 40)
                     .scaledToFill()
@@ -45,7 +70,8 @@ struct HomeVC: View {
                     UpComingRideVC()
                 }
                 if index == 3 {
-                    PastRideVC()
+                    NearestRideVC()
+//                    PastRideVC()
                 }
             }
         }

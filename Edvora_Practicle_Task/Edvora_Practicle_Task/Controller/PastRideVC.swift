@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PastRideVC: View {
     var body: some View {
-        Text("PastRide")
+        RideListView()
     }
 }
 

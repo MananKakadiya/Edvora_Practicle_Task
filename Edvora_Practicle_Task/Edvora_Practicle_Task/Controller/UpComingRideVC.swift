@@ -9,7 +9,7 @@ import SwiftUI
 
 struct UpComingRideVC: View {
     var body: some View {
-        Text("UpComingRide")
+        RideListView()
     }
 }
 

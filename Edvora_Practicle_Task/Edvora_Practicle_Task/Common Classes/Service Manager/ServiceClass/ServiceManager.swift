@@ -80,12 +80,6 @@ class ServiceManager: NSObject {
            let session = URLSession.shared
 
            session.dataTask(with: request) {data, response, err in
-//               if err == nil{
-//                   guard let data = data else {
-//                       return
-//                   }
-//                   complitation(data)
-//               }
                if let responseData = data {
                     #if DEBUG
                         self.printJSON(responseData: responseData)

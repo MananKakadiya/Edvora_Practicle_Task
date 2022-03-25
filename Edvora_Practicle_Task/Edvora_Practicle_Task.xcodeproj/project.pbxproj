@@ -28,6 +28,8 @@
 		E0AF5E0527ED2EF400A4DFFF /* PastRideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF5E0427ED2EF400A4DFFF /* PastRideVC.swift */; };
 		E0AF5E0727ED2F2600A4DFFF /* FilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF5E0627ED2F2600A4DFFF /* FilterVC.swift */; };
 		E0AF5E0927ED348E00A4DFFF /* UpComingRideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF5E0827ED348E00A4DFFF /* UpComingRideVC.swift */; };
+		E0AF5E0B27EE4DFC00A4DFFF /* RideDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF5E0A27EE4DFC00A4DFFF /* RideDetailVC.swift */; };
+		E0AF5E0D27EE586500A4DFFF /* RideListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF5E0C27EE586500A4DFFF /* RideListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		E0AF5E0427ED2EF400A4DFFF /* PastRideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastRideVC.swift; sourceTree = "<group>"; };
 		E0AF5E0627ED2F2600A4DFFF /* FilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterVC.swift; sourceTree = "<group>"; };
 		E0AF5E0827ED348E00A4DFFF /* UpComingRideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpComingRideVC.swift; sourceTree = "<group>"; };
+		E0AF5E0A27EE4DFC00A4DFFF /* RideDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideDetailVC.swift; sourceTree = "<group>"; };
+		E0AF5E0C27EE586500A4DFFF /* RideListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 				E0AF5E0027ED2EE500A4DFFF /* NearestRideVC.swift */,
 				E0AF5E0427ED2EF400A4DFFF /* PastRideVC.swift */,
 				E0AF5E0627ED2F2600A4DFFF /* FilterVC.swift */,
+				E0AF5E0A27EE4DFC00A4DFFF /* RideDetailVC.swift */,
+				E0AF5E0C27EE586500A4DFFF /* RideListView.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -248,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0AF5E0D27EE586500A4DFFF /* RideListView.swift in Sources */,
 				E0AF5DF527ECA12D00A4DFFF /* BaseServiceResponse .swift in Sources */,
 				E0AF5DA327EC5E7900A4DFFF /* ContentView.swift in Sources */,
 				E0AF5E0927ED348E00A4DFFF /* UpComingRideVC.swift in Sources */,
@@ -256,6 +263,7 @@
 				E0AF5DA127EC5E7900A4DFFF /* Edvora_Practicle_TaskApp.swift in Sources */,
 				E0AF5DD027EC7F6900A4DFFF /* CommonUI.swift in Sources */,
 				E0AF5DF127ECA0D100A4DFFF /* ServiceManager.swift in Sources */,
+				E0AF5E0B27EE4DFC00A4DFFF /* RideDetailVC.swift in Sources */,
 				E0AF5DFF27ED292600A4DFFF /* RideModel.swift in Sources */,
 				E0AF5DF327ECA10200A4DFFF /* ServiceMapping.swift in Sources */,
 				E0AF5DD427EC7F6900A4DFFF /* CommonAPI.swift in Sources */,

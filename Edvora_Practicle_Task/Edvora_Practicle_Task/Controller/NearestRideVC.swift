@@ -6,11 +6,15 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct NearestRideVC: View {
+    @State var isOpenRideDetailView : Bool = false
+    
     var body: some View {
-        Text("NearestRide")
+        RideListView()
     }
+    
 }
 
 struct NearestRideVC_Previews: PreviewProvider {
